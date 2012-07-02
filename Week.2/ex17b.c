@@ -69,9 +69,6 @@ struct Connection* Database_open(const char *filename, char mode, int max_rows, 
 	
 	if(!conn->file) die("Failed to open the file");
 
-//	conn->db->max_rows = max_rows;
-//	conn->db->max_data = max_data;
-
 	return conn;
 }
 
